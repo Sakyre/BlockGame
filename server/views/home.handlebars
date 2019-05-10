@@ -1,0 +1,31 @@
+ <h2 class="page-header">News</h2>
+<p>Welcome to your latest news tab, {{#if user}} {{user.name}}. {{/if}}</p>
+<p>Added Features: </p>
+<ul>
+	<b>
+		<li>Added a tab for frequently asked questions</li>
+		<li>Added account information tab</li>
+		<li>Added gladiator creation tab</li>
+		<li>Added ability to add points to your character after leveling up</li>
+		<li>Added ability to dispose of your current character</li>
+	</b>
+</ul>
+<p>Upcoming Features: </p>
+<ul>
+	<b>
+		<li>Online participation Player vs. Player (Soon™)</li>
+		<li>Billboard for top players that participate in PVP (Soon™)</li>
+	</b>
+</ul>
+ <h2 class="page-header"></h2>
+<!--
+<form method="post" action="/">
+	<div class="form-group">
+		<label>Your comment: </label>
+		<input type="text" class="form-control" placeholder="Your game is shit. Sincerely - Tom." name="comment">
+	</div>
+	<button type="submit" class="btn btn-default">Leave a comment</button>
+</form>
+-->
+ <h2 class="page-header">Your goal:</h2>
+ <p>{{#if user}}{{user.name}}{{/if}}, your goal is to enter the <b>Coliseum</b> and rise to the top or die trying. (In order to participate go to <b>Player Actions/Information</b> after creating your character and you'll see a button <b>Participate in the Coliseum</b>).</p>
